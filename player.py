@@ -6,10 +6,10 @@ from util import *
 class Player:
     def __init__(self, n_player, board):
         # Player positions
-        #       1. Top
-        #       2. Bottom
-        #       3. Left
-        #       4. Right
+        #       1. Top   ▲
+        #       2. Bottom  ▼
+        #       3. Left   ►
+        #       4. Right  ◄
 
         self.n_player = n_player
         self.G = board.G.copy()
