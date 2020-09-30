@@ -1,7 +1,7 @@
 from game import Game
 
-m = 9
-n = 9
+values = [(9, 9), (19, 19), (29, 29), (39, 39), (49, 49), (59, 59), (69, 69)]
 
-g = Game(m, n, 4)
-g.start(True, (400, 400))
+for m, n in values:
+    g = Game(m, n, 4)
+    g.start(True, (400,400))
