@@ -1,15 +1,11 @@
 import networkx as nx
-
-from util import *
+from djikstra import dijkstra_algorithm
+from bfs import bfs_algorithm
+from dfs import dfs_algorithm
 
 
 class Player:
     def __init__(self, n_player, board):
-        # Player positions
-        #       1. Top   ▲
-        #       2. Bottom  ▼
-        #       3. Left   ◄
-        #       4. Right  ►
 
         self.n_player = n_player
         self.G = board.G.copy()
@@ -80,3 +76,43 @@ class Player:
         elif (y - 1, x) not in self.G.nodes:
             add_edge_util(self.G, (y + 1, x), (y, x - 1))
             add_edge_util(self.G, (y + 1, x), (y, x + 1))
+
+
+def get_player_movement_algorithm(n_player):
+    algorithms = {
+        1: dijkstra_algorithm,
+        2: dijkstra_algorithm,
+        3: dijkstra_algorithm,
+        4: dijkstra_algorithm
+    }
+    return algorithms[n_player]
+
+
+def remove_node_util(G, node):
+    if node in G.nodes:
+        G.remove_node(node)
+
+
+def add_node_util(G, node):
+    if node not in G.nodes:
+        G.add_node(node)
+
+
+def remove_edge_util(G, u, v):
+    if u in G.nodes and v in G.nodes:
+        if (u, v) in G.edges:
+            G.remove_edge(u, v)
+        if (v, u) in G.edges:
+            G.remove_edge(v, u)
+
+
+def add_edge_util(G, u, v):
+    if u in G.nodes and v in G.nodes:
+        if (u, v) not in G.edges and (v, u) not in G.edges:
+            G.add_edge(u, v)
+
+
+def get_attr_val(G, node, attribute):
+    if node in G.nodes:
+        return G.nodes[node][attribute]
+

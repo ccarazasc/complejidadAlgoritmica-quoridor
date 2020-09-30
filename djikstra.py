@@ -3,10 +3,6 @@ from itertools import count
 import networkx as nx
 
 
-def dijkstra_algorithm(G, inicio, final, atributo="weight"):
-    (distancia_total, camino) = para_un_vertice(G, inicio, final=final, atributo=atributo)
-    return camino
-
 
 def extraer_pesos(G, weight):
     if callable(weight):
@@ -21,6 +17,11 @@ def para_un_vertice(G, inicio, final=None, limite=None, atributo="weight"):
     return varios_vertices(
         G, {inicio}, limite=limite, final=final, peso=atributo
     )
+
+
+def dijkstra_algorithm(G, inicio, final, atributo="weight"):
+    (distancia_total, camino) = para_un_vertice(G, inicio, final=final, atributo=atributo)
+    return camino
 
 
 def varios_vertices(G, iniciales, final=None, limite=None, peso="weight"):
