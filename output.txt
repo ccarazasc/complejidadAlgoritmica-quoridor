@@ -24,3 +24,16 @@ Board info:
 	Average time: 0.02632114291191101
 	Gano el jugador 4 en 0.6317074298858643 con 24 jugadas
 
+Board info: 
+	m: 9	n: 9
+
+	Algorithm: dijkstra_algorithm
+	Average time: 0.002561330795288086
+	Algorithm: dijkstra_algorithm
+	Average time: 0.002737760543823242
+	Algorithm: dijkstra_algorithm
+	Average time: 0.0024071761540004183
+	Algorithm: dijkstra_algorithm
+	Average time: 0.0026013851165771484
+	Gano el jugador 3 en 0.01685023307800293 con 7 jugadas
+

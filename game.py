@@ -105,7 +105,7 @@ class Game:
     def start_interface(self, screen_size):
         screen = pygame.display.set_mode(screen_size)
         pygame.display.set_caption('Quoridor')
-        self.board = GBoard(self.m, self.n, 10, 10, screen_size[0] - 10, screen_size[1] - 10, 15, (0, 0, 0))
+        self.board = GBoard(self.m, self.n, 10, 10, screen_size[0] - 10, screen_size[1] - 10, 2, (0, 0, 0))
 
         for i in range(self.n_players):
             player_number = i + 1
