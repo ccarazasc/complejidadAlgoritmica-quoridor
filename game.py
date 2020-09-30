@@ -137,7 +137,6 @@ class Game:
                 done = True
             n_player_turn = (n_player_turn + 1) % self.n_players
 
-        print("Gano el jugador", winner.n_player, " en ", data[winner.n_player]['Total'], " con ",
-              data[winner.n_player]['Counter'], " jugadas")
+        print("Gano el jugador", winner.n_player, " en ", data[winner.n_player]['Total'])
         save_data_to_file(self.board, winner)
         pygame.quit()
