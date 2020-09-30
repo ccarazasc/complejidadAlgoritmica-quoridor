@@ -5,7 +5,7 @@ import pygame
 from util import *
 
 
-class DrawablePlayer(Player):
+class GPlayer(Player):
     def __init__(self, n_player, board, color):
         Player.__init__(self, n_player, board)
         self.n_player = n_player

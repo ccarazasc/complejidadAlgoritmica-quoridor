@@ -48,8 +48,8 @@ def rotate(x, y, theta, c):
 def get_player_movement_algorithm(n_player):
     algorithms = {
         1: dijkstra_algorithm,
-        2: dfs_algorithm,
-        3: bfs_algorithm,
+        2: dijkstra_algorithm,
+        3: dijkstra_algorithm,
         4: dijkstra_algorithm
     }
     return algorithms[n_player]

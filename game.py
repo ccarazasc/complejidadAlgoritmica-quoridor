@@ -3,8 +3,8 @@ import time
 
 from random import randint
 
-from gBoard import DrawableBoard
-from g_player import DrawablePlayer
+from gBoard import GBoard
+from g_player import GPlayer
 from board import Board
 from player import Player
 from util import *
@@ -105,14 +105,14 @@ class Game:
     def start_interface(self, screen_size):
         screen = pygame.display.set_mode(screen_size)
         pygame.display.set_caption('Quoridor')
-        self.board = DrawableBoard(self.m,self.n, 10, 10, screen_size[0] - 10, screen_size[1] - 10, 15, (0, 0, 0))
+        self.board = GBoard(self.m, self.n, 10, 10, screen_size[0] - 10, screen_size[1] - 10, 15, (0, 0, 0))
 
         for i in range(self.n_players):
             player_number = i + 1
             if self.n_players == 2:
                 if player_number == 2:
                     player_number = 3
-            player = DrawablePlayer(player_number, self.board, (50*player_number , 50*player_number, 50*player_number))
+            player = GPlayer(player_number, self.board, (50*player_number , 50*player_number, 50*player_number))
             self.players.append(player)
 
         pygame.init()

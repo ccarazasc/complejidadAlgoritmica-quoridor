@@ -3,7 +3,7 @@ from board import Board
 import pygame
 
 
-class DrawableBoard(Board):
+class GBoard(Board):
     def __init__(self, m, n, x, y, width, height, separation, color):
         Board.__init__(self, m, n)
         self.x, self.y = x, y
