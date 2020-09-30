@@ -2,38 +2,129 @@ Board info:
 	m: 9	n: 9
 
 	Algorithm: dijkstra_algorithm
-	Average time: 0.0031319005148751394
+	Average time: 0.0021409307207380024
 	Algorithm: dijkstra_algorithm
-	Average time: 0.0028802326747349332
+	Average time: 0.001947028296334403
 	Algorithm: dijkstra_algorithm
-	Average time: 0.0028151671091715493
+	Average time: 0.0020927985509236655
 	Algorithm: dijkstra_algorithm
-	Average time: 0.003426074981689453
-	Gano el jugador 2 en 0.02016162872314453 con 7 jugadas
+	Average time: 0.001980475017002651
+	Gano el jugador 2 en 0.01362919807434082 con 7 jugadas
 
 Board info: 
 	m: 19	n: 19
 
 	Algorithm: dijkstra_algorithm
-	Average time: 0.024763107299804688
+	Average time: 0.010202854871749878
 	Algorithm: dijkstra_algorithm
-	Average time: 0.02738646666208903
+	Average time: 0.010418933370838995
 	Algorithm: dijkstra_algorithm
-	Average time: 0.024891563083814537
+	Average time: 0.01131085727525794
 	Algorithm: dijkstra_algorithm
-	Average time: 0.02632114291191101
-	Gano el jugador 4 en 0.6317074298858643 con 24 jugadas
+	Average time: 0.010753671328226725
+	Gano el jugador 1 en 0.24486851692199707 con 24 jugadas
+
+Board info: 
+	m: 29	n: 29
+
+	Algorithm: dijkstra_algorithm
+	Average time: 0.0312043171302945
+	Algorithm: dijkstra_algorithm
+	Average time: 0.031177353858947755
+	Algorithm: dijkstra_algorithm
+	Average time: 0.031683663932644594
+	Algorithm: dijkstra_algorithm
+	Average time: 0.032494002697514554
+	Gano el jugador 2 en 1.5588676929473877 con 50 jugadas
+
+Board info: 
+	m: 39	n: 39
+
+	Algorithm: dijkstra_algorithm
+	Average time: 0.11991700800982388
+	Algorithm: dijkstra_algorithm
+	Average time: 0.12464019032411797
+	Algorithm: dijkstra_algorithm
+	Average time: 0.128924896550733
+	Algorithm: dijkstra_algorithm
+	Average time: 0.12506705522537231
+	Gano el jugador 1 en 10.552696704864502 con 88 jugadas
+
+Board info: 
+	m: 49	n: 49
+
+	Algorithm: dijkstra_algorithm
+	Average time: 0.30511557084542734
+	Algorithm: dijkstra_algorithm
+	Average time: 0.30371788211334916
+	Algorithm: dijkstra_algorithm
+	Average time: 0.3153070644898848
+	Algorithm: dijkstra_algorithm
+	Average time: 0.3077560195216426
+	Gano el jugador 2 en 40.39447832107544 con 133 jugadas
 
 Board info: 
 	m: 9	n: 9
 
 	Algorithm: dijkstra_algorithm
-	Average time: 0.002561330795288086
+	Average time: 0.0015864372253417969
 	Algorithm: dijkstra_algorithm
-	Average time: 0.002737760543823242
+	Average time: 0.001477548054286412
 	Algorithm: dijkstra_algorithm
-	Average time: 0.0024071761540004183
+	Average time: 0.0012392997741699219
 	Algorithm: dijkstra_algorithm
-	Average time: 0.0026013851165771484
-	Gano el jugador 3 en 0.01685023307800293 con 7 jugadas
+	Average time: 0.0010802064623151506
+	Gano el jugador 2 en 0.010342836380004883 con 7 jugadas
+
+Board info: 
+	m: 19	n: 19
+
+	Algorithm: dijkstra_algorithm
+	Average time: 0.011032670736312866
+	Algorithm: dijkstra_algorithm
+	Average time: 0.011388125626937202
+	Algorithm: dijkstra_algorithm
+	Average time: 0.011931149855903957
+	Algorithm: dijkstra_algorithm
+	Average time: 0.01001600424448649
+	Gano el jugador 1 en 0.2647840976715088 con 24 jugadas
+
+Board info: 
+	m: 9	n: 9
+
+	Algorithm: dijkstra_algorithm
+	Average time: 0.0033203193119594027
+	Algorithm: dijkstra_algorithm
+	Average time: 0.003992676734924316
+	Algorithm: dijkstra_algorithm
+	Average time: 0.003614459718976702
+	Algorithm: dijkstra_algorithm
+	Average time: 0.0035797187260219027
+	Gano el jugador 1 en 0.02324223518371582 con 7 jugadas
+
+Board info: 
+	m: 19	n: 19
+
+	Algorithm: dijkstra_algorithm
+	Average time: 0.030281047026316326
+	Algorithm: dijkstra_algorithm
+	Average time: 0.029816347619761593
+	Algorithm: dijkstra_algorithm
+	Average time: 0.029303084249081818
+	Algorithm: dijkstra_algorithm
+	Average time: 0.030892600615819294
+	Gano el jugador 2 en 0.6857759952545166 con 23 jugadas
+
+Board info: 
+	m: 9	n: 9
+
+	Algorithm: dijkstra_algorithm
+	Average time: 0.003198703130086263
+	Algorithm: dijkstra_algorithm
+	Average time: 0.002682277134486607
+	Algorithm: dijkstra_algorithm
+	Average time: 0.0026445729391915457
+	Algorithm: dijkstra_algorithm
+	Average time: 0.0029039723532540457
+	Gano el jugador 4 en 0.02032780647277832 con 7 jugadas
 
